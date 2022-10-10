@@ -10,9 +10,9 @@ def home():
 def login():
     return render_template('editportfolio.html')
 
-@app.route('/fun')
-def onLogin():
-    print("sajjdfjhjsj")
+@app.route('/result')
+def result():
+print(moni)
     return render_template('editportfolio.html')
 
 
